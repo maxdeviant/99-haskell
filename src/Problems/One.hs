@@ -5,7 +5,7 @@
 
 module Problems.One where
 
-myLast list = if (tail list) == [] then head list else myLast (tail list)
+myLast (x:xs) = if xs == [] then x else myLast xs
 
 problemOne = do
     putStrLn "Problem 1"
