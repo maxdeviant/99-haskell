@@ -4,6 +4,7 @@ import Problems.One
 import Problems.Two
 import Problems.Three
 import Problems.Four
+import Problems.Five
 
 main :: IO()
 main = do
@@ -11,4 +12,5 @@ main = do
     problemTwo
     problemThree
     problemFour
+    problemFive
     putStrLn "Done"
