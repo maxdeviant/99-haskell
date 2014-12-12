@@ -13,6 +13,6 @@ problemFour = do
     putStrLn "Problem 4"
     putStrLn "Find the number of elements of a list."
     putStrLn "> myLength [123, 456, 789]"
-    print(myLength [123, 456, 789])
+    print (myLength [123, 456, 789])
     putStrLn "> myLength \"Hello, world!\""
-    print(myLength "Hello, world!")
+    print (myLength "Hello, world!")
